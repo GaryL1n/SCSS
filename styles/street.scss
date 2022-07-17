@@ -1,0 +1,393 @@
+.header {
+    height: 67px;
+    background-color: rgb(51, 51, 51);
+
+    ul {
+        height: 100%;
+
+        a {
+            padding: 5px;
+        }
+    }
+
+    .header-word {
+        color: aliceblue;
+        font-size: 20px;
+    }
+
+    .logo {
+        height: 35.9062px;
+    }
+
+    .header-img {
+        height: 25px;
+    }
+}
+
+.well {
+    margin-bottom: 12px;
+
+    a :hover {
+        opacity: 0.7;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.box2 {
+    text-align: center;
+    margin-bottom: 12px;
+
+    .box2-word {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    a:hover {
+        opacity: 0.7;
+    }
+}
+
+.product {
+    .product-black {
+        background-color: rgb(51, 51, 51);
+        height: 32px;
+        width: 100%;
+        p {
+            color: aliceblue;
+            padding: 4px 12px;
+        }
+    }
+
+    .card {
+        padding: 12px;
+        border: 0;
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        img:hover {
+            opacity: 0.7;
+        }
+
+        p {
+            color: rgb(74, 74, 74);
+            font-size: 14.4px;
+        }
+
+        .Price {
+            text-align: center;
+        }
+
+        span:nth-child(1) {
+            color: rgb(255, 0, 0);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        span:nth-child(2) {
+            font-size: 12px;
+        }
+    }
+
+    .button-box {
+        margin-top: 16px;
+        margin-bottom: 32px;
+        text-align: center;
+        width: 100%;
+
+        button {
+            padding: 7px 16px;
+            border: 2px solid rgb(85, 85, 85);
+            border-radius: 5%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        span {
+            color: rgb(54, 54, 54);
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
+.blog {
+    .blog-black {
+        background-color: rgb(51, 51, 51);
+        height: 32px;
+        width: 100%;
+        margin-bottom: 16px;
+
+        p {
+            color: aliceblue;
+            padding: 4px 12px;
+        }
+    }
+
+    .blog-card {
+        p {
+            color: rgb(0, 0, 0);
+            font-size: 14.4px;
+        }
+
+        .img-box {
+            margin-bottom: 5px;
+
+            img {
+                width: 100%;
+            }
+
+            img:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .button-box {
+        margin-top: 16px;
+        margin-bottom: 32px;
+        text-align: center;
+        width: 100%;
+
+        button {
+            padding: 7px 16px;
+            border: 2px solid rgb(85, 85, 85);
+            border-radius: 5%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        span {
+            color: rgb(54, 54, 54);
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
+.recommend {
+    margin-bottom: 10px;
+
+    .recommend-black {
+        background-color: rgb(51, 51, 51);
+        height: 32px;
+        width: 100%;
+
+        p {
+            color: aliceblue;
+            padding: 4px 12px;
+        }
+    }
+
+    .recommend-card {
+        padding: 12px;
+        border: 0;
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        img:hover {
+            opacity: 0.7;
+        }
+
+        p {
+            color: rgb(74, 74, 74);
+            font-size: 14.4px;
+        }
+
+        .Price {
+            text-align: center;
+        }
+
+        span:nth-child(1) {
+            color: rgb(255, 0, 0);
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        span:nth-child(2) {
+            font-size: 12px;
+        }
+    }
+}
+
+.recommend-category {
+    margin-bottom: 10px;
+
+    img {
+        width: 100%;
+    }
+
+    img:hover {
+        opacity: 0.7;
+    }
+
+    div {
+        padding: 12px;
+    }
+}
+
+.brand {
+    .brand-black {
+        background-color: rgb(51, 51, 51);
+        height: 32px;
+        width: 100%;
+        margin-bottom: 16px;
+
+        p {
+            color: aliceblue;
+            padding: 4px 12px;
+        }
+    }
+
+    .brand-card {
+        width: 143.5px;
+        margin-bottom: 10px;
+        .img-box {
+            width: 84px;
+            border: 3px solid rgb(255, 255, 255);
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+            overflow: hidden;
+            margin-bottom: 10px;
+            margin-left: 25%;
+
+            img {
+                width: 100%;
+            }
+            img:hover {
+                opacity: 0.7;
+            }
+        }
+        .img-box:hover {
+            border: 3px solid rgba(0, 0, 0, 0.322);
+        }
+
+        .brand-card-word {
+            text-align: center;
+            p {
+                color: rgb(0, 0, 0);
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 18px;
+                margin-bottom: 0;
+            }
+    
+            span {
+                color: rgb(102, 102, 102);
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 18px;
+            }
+        }
+    }
+    .button-box {
+        margin-top: 16px;
+        margin-bottom: 32px;
+        text-align: center;
+        width: 100%;
+
+        button {
+            padding: 7px 16px;
+            border: 2px solid rgb(85, 85, 85);
+            border-radius: 5%;
+            background-color: rgb(255, 255, 255);
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        span {
+            color: rgb(54, 54, 54);
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
+.idea {
+    .idea-black {
+        background-color: rgb(51, 51, 51);
+        height: 32px;
+        width: 100%;
+        margin-bottom: 16px;
+
+        p {
+            color: aliceblue;
+            padding: 4px 12px;
+        }
+    }
+    .idea-left {
+        .idea-left-word {
+            p { 
+                font-size: 14.4px;
+                line-height: 23.04px;
+            }
+            h4 {
+                font-size: 14.4px;
+                padding: 8px 14.4px;
+                border-top: 1px solid rgb(85, 85, 85);
+                border-bottom: 1px solid rgb(85, 85, 85);
+                text-align: center;
+            }
+            h5 {
+                font-size: 14.4px;
+                font-weight: 500;
+                line-height: 36px;
+                border: 1px dotted rgb(102, 102, 102);
+                text-align: center;
+            }
+        }
+    }
+    .idea-right {
+        iframe {
+            width: 100%;
+            height: 205px;
+        }
+        p {
+            font-size: 14.4px;
+            line-height: 23.04px;
+            margin: 0;
+        }
+    }
+}
